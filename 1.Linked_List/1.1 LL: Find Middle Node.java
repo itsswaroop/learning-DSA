@@ -29,6 +29,7 @@
 // Note:
 
 // In this problem, you should use the slow and fast pointer technique (also known as Floyd's Tortoise and Hare algorithm) to find the middle element of the linked list efficiently.
+// The key idea is to have two pointers, one that moves twice as fast as the other. By the time the fast pointer reaches the end of the linked list, the slow pointer will be at the middle.
 
 
 ....
@@ -43,4 +44,3 @@ public Node findMiddleNode(){
 	}
 ....
 
-// The key idea is to have two pointers, one that moves twice as fast as the other. By the time the fast pointer reaches the end of the linked list, the slow pointer will be at the middle.
